@@ -61,9 +61,9 @@ P(A1 U A2 U A3 ... U An) = sigma j=1 to n P(Aj) - sigma P(Ai n Aj)(i<j) + sigma 
 구할 수 있음.
 
 무작위로 섞여 있는 카드 1,2, ... n 중에서 카드 j가 j번째 순서에 놓이는 사건을 Aj 라고 할 때,
-P(Aj)         = 1/n                        -> n 가지
-P(A1 n A2) = (n-2)! / n! = 1/n(n-1) -> (n , 2) = n(n-1)/2 가지  
-P(A1 n A2 n A3 n A4 .. n An) = (n-k)! / n!
+P(Ai)         = 1/n                        -> i가   될 수 있는 개수    : n 가지
+P(Ai n Aj)   = (n-2)! / n! = 1/n(n-1) -> i, j가 될 수 있는 개수   : (n , 2) = n(n-1)/2 가지  
+P(A1 n A2 n A3 n A4 .. n An) = (n-k)! / n! -> i,j,k,...가 될 수 있는 개수 : 1가지
 
 그러므로 구하고자 하는 확률인 P(A1 U A2 U ... U An) 는
   = P(A1) + P(A2) + ... + P(An) - P(A1 U A2) - ... + P(A1 U A2 U A3) + ....
