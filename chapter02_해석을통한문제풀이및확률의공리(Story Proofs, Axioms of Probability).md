@@ -51,7 +51,7 @@
 
 #### K개의 구별 불가능한 입자들을 n개의 구별 가능한 박스에 넣는 경우의 수?
 ##### 상자 4개에 구슬 k개를 넣는 경우의 수를 생각해보자
-![img](https://github.com/koni114/Harvard_Statistics/blob/master/image/%EB%B0%A9%EB%8D%B0%EB%A5%B4%EB%AA%BD%EB%93%9C.JPG)
+![img](https://github.com/koni114/Harvard_Statistics/blob/master/image/4%EA%B0%9C%EC%83%81%EC%9E%90k%EA%B0%9C%EA%B5%AC%EC%8A%AC.JPG)
 
 
 * 이는 K개의 구슬과 n-1개의 | 를 배열하는 경우의 수와 같다!
@@ -87,6 +87,7 @@
 * 방데르몽드 항등식이라고 불림(수학에서 유명한 항등식)
 * 대수적으로 증명하는 것은 굉장히 어려움
 * m+n개에서 k개를 뽑는 경우의 수는 m 그룹, n그룹에서 각각 j개, k-j개를 뽑아 이를  0=< j  <= k 개 만큼 더해주면 됨
+![img](https://github.com/koni114/Harvard_Statistics/blob/master/image/%EB%B0%A9%EB%8D%B0%EB%A5%B4%EB%AA%BD%EB%93%9C.JPG)
 
 ## Non-naïve definition of probability
 #### 확률 공간(sample space)
