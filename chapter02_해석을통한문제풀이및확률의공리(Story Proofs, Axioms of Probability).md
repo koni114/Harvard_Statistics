@@ -51,7 +51,7 @@
 
 #### K개의 구별 불가능한 입자들을 n개의 구별 가능한 박스에 넣는 경우의 수?
 ##### 상자 4개에 구슬 k개를 넣는 경우의 수를 생각해보자
-![img](https://github.com/koni114/Harvard_Statistics.git/image/MontyHall수형도.png)
+![img](https://github.com/koni114/Harvard_Statistics/blob/master/image/%EB%B0%A9%EB%8D%B0%EB%A5%B4%EB%AA%BD%EB%93%9C.JPG)
 
 
 * 이는 K개의 구슬과 n-1개의 | 를 배열하는 경우의 수와 같다!
