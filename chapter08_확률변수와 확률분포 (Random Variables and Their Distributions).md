@@ -49,8 +49,11 @@
 * 앞선 이항분포도 CDF로 작성이 가능하다  
 * X = x도 사건이지만, X <= x도 사건으로 생각할 수 있음  
 <p align = "center"><img src="https://latex.codecogs.com/gif.latex?F(x)&space;=&space;P(X&space;\leq&space;x)" title="F(x) = P(X \leq x)" /></p>
+
 * 이 때의 F(x)를 CDF라고 한다!  
-##### ** CDF가 중요한 이유
+
+##### CDF가 중요한 이유  
+
 * 항상 확률변수는 숫자를 부여한다(Sample space가 복잡하던 말던!)  
 * F(x) = P(X <= x) 에서 X <= x 는 사건이지만 실험을 하기 전까지 X의 값이 무엇인지 알 수 없음  
 * 실험한 후에는 확인 할 수 있음  
