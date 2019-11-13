@@ -24,7 +24,7 @@
 <p align = "center"><b>Word is not the thing. the map is not the territory</b></p>
 
 * random variable과 distribution을 설명하는 구절  
-* 우리는 지도와 영토 자체를 헷갈리진 않는다(지도 = random variable, 영토 = distribution)  
+* 우리는 지도와 영토 자체를 헷갈리진 않는다(지도 = distribution, 영토 = random variable)  
 
 * 더 좋은 비유는 <b>random variable은 "집" 이고 distribution은 "설계도"</b>인 것  
   * 설계도 하나를 가지고 더 좋은 '집'을 만들 수 있음  
@@ -39,7 +39,7 @@
 * 프랑스 수학자인 Poisson의 이름을 딴 분포  
 
 ##### (1) PMF
-<p align = "center"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;k)&space;=&space;e^{-\lambda&space;}\cdot&space;\lambda^{k},&space;k&space;=&space;{0,&space;1,&space;2&space;..}" title="P(X = k) = e^{-\lambda }\cdot \lambda^{k}, k = {0, 1, 2 ..}" /</p>
+<p align = "center"><a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;k)&space;=&space;\frac{e^{\lambda}&space;\dot&space;\lambda&space;^{k}}{k!}&space;,&space;k&space;=&space;0,&space;1,&space;2..." target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;k)&space;=&space;\frac{e^{\lambda}&space;\dot&space;\lambda&space;^{k}}{k!}&space;,&space;k&space;=&space;0,&space;1,&space;2..." title="P(X = k) = \frac{e^{\lambda} \dot \lambda ^{k}}{k!} , k = 0, 1, 2..." /></a></p>
 
 * lambda 는 'rate parameter'  
 * K는 음수가 아닌 정수  
@@ -77,7 +77,8 @@
   * 많은 시도 필요(n의 크기가 커야 함)  
   * 각 시도에서 성공 확률은 낮아야 함(p의 크기는 작아야 함)  
 
-* <b>예시1 - 한시간 안에 받는 이메일의 개수</b>  
+* <b/>예시1 - 한시간 안에 받는 이메일의 개수</b>  
+  
   * 정확히 포아송이 아닐 수도 있음. 시작점으로 한 번 해보는 것임  
   * 포아송인지, 아닌지는 직접 해보야 함  
   * 직접 이메일을 세는 것은 경험적인 문제지 수학적인 문제는 아님  
@@ -85,11 +86,13 @@
     * 1시간동안 나에게 이메일을 보낼 수 있는 사람은 많음(n이 큼)  
     * 주기적으로 주고 받는 사이가 아니면 특정 1시간 동안 나에게 email을 보낼 확률은 매우 작음  
 
-*  <b>예시2 - 초콜렛 칩 쿠키 안에 든 초콜릿 칩의 개수</b>  
+* <b>예시2 - 초콜렛 칩 쿠키 안에 든 초콜릿 칩의 개수</b>  
+
   * 초콜렛 칩 자체는 많이 들어있지만(n이 큼), 각 쿠키의 조각에는 칩이 잘 없음(p는 작음)  
 
 * <b>예시3  - 특정 지역에서의 1년간 지진 발생률</b>  
-* 중요한 것은 꼭 포아송 분포를 따르지 않을 수 있다는 점. 초기 추정으로 적절할 것으로 판단한 것  
+  
+  * 중요한 것은 꼭 포아송 분포를 따르지 않을 수 있다는 점. 초기 추정으로 적절할 것으로 판단한 것  
 
 * 실제 예시에서는 상한(upper bound)가 존재하지만, 이론에서는 무한대  
 완벽한 pois는 찾기 어렵지만, 대부분에서는 꽤 적절함(추정하기 유용한 분포라는 점)  
