@@ -1,7 +1,7 @@
 # 12강- 이산, 연속, 균등분포 (Discrete vs. Continuous, the Uniform)
 
 ## 핵심 키워드
-* 연속확률변수    
+* 연속확률변수  
 * 확률밀도함수(Probability Density Function = PDF)  
 * 기댓값, 분산  
 * 균등분포(Uniform Distribution)  
