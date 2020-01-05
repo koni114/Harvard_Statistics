@@ -145,5 +145,5 @@ s는 자체로써 굉장히 추상적일 수 있지만, 이를 실수로 대응 
 <p align = 'center'><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;k)&space;=&space;\binom{n}{k}p^{k}q^{n-k}" title="P(X = k) = \binom{n}{k}p^{k}q^{n-k}" /><p>
 
 * 이항확률변수의 특징  
-  *  X ~ Bin(n,p)Bin(n,p),  Y ~Bin(m,p)  Bin(m,p) 일 때     
-X+YX+Y ~ Bin(n+m, p)Bin(n+m,p) 를 따름  
+  *  X ~ Bin(n,p),  Y ~ Bin(m,p) 일 때     
+X+YX+Y ~ Bin(n+m,p) 를 따름  
