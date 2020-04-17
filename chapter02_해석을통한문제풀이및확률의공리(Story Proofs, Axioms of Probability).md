@@ -23,7 +23,7 @@
 
 > |                                     |  순서 상관 있음 | 순서 상관 없음
 > |---|:---:|:---:|
->  | 복원 |<img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\large&space;n^{c}" title="\large n^{c}" />| <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\binom{n&space;&plus;&space;k&space;-&space;1}{k}" title="\binom{n + k - 1}{k}" />|
+>  | 복원 |<img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\large&space;n^{c}" title="\large n^{c}" />| <img src="https://latex.codecogs.com/gif.latex?\binom{n&plus;k-1}{c}" title="\binom{n + k - 1}{k}" />|
 >  | 비복원 | <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;n(n-1)(n-2)(n-3)\cdot\cdot\cdot(n&space;-&space;k&space;&plus;&space;1)" title="n(n-1)(n-2)(n-3)\cdot\cdot\cdot(n - k + 1)" />| <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\binom{n}{k}" title="\binom{n}{k}" />||
 
 * 순서가 상관 없고, 복원인 경우를 제외한 3가지 Case는 곱의 법칙으로 설명 됨
