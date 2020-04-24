@@ -57,7 +57,7 @@
 * 이는 K개의 구슬과 n-1개의 | 를 배열하는 경우의 수와 같다!
 * 작대기 n-1 를 배열한 위치에 따라서 구슬의 배치가 달라지기 때문
 * 따라서 다음과 같은 식을 가진다는 것을 직관적으로 판단할 수 있다
-  <p align="center"><img src="https://latex.codecogs.com/gif.latex?\binom{n&space;&plus;&space;k&space;&plus;&space;1}{&space;k&space;}&space;=&space;\binom{n&space;&plus;&space;k&space;&plus;&space;1}{n&space;-&space;1}" title="\binom{n + k + 1}{ k } = \binom{n + k + 1}{n - 1}" /></p>
+  <p align="center"><img src="https://latex.codecogs.com/gif.latex?\binom{n&space;&plus;&space;k&space;&plus;&space;1}{&space;k&space;}&space;=&space;\binom{n&space;&plus;&space;k&space;&plus;&space;1}{n&space;-&space;1}" title="\binom{n + k - 1}{ k } = \binom{n + k - 1}{n - 1}" /></p>
 
 #### 증명을 통해 생각해볼 점
 
